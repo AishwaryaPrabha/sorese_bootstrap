@@ -67,6 +67,13 @@ body{
 	padding-top: 1rem;
 }
 
+h5{
+	font-family: 'IBM Plex Sans', sans-serif;
+	padding-top: 2rem;
+	font-weight: 300;
+	
+}
+
 /*Subscription Block*/
 .subscription-block{
 	margin-top: 3.5rem;
@@ -76,8 +83,51 @@ body{
 
 /*Footer*/
 .footer{
-	background-color: #0c0101;
+	background-color: black;
 }
+
+/* footer */
+.footer-container {
+  background-color: black;
+  margin-bottom: 0 !important;
+}
+
+.footer-text {
+  color: white;
+  /* target: _self; */
+}
+
+.custom-footer {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  padding-left: 10px;
+}
+
+.brand-logo {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 70px;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
 /* Links */
 
 a{
